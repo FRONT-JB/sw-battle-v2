@@ -2563,41 +2563,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-js-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "next-js-template@workspace:."
-  dependencies:
-    "@babel/core": ^7.18.6
-    "@babel/plugin-proposal-decorators": ^7.18.6
-    "@emotion/babel-plugin": ^11.9.2
-    "@emotion/react": ^11.9.3
-    "@emotion/styled": ^11.9.3
-    "@types/babel__core": ^7
-    "@types/node": 18.0.3
-    "@types/react": 18.0.15
-    "@types/react-dom": 18.0.6
-    "@typescript-eslint/eslint-plugin": ^5.30.6
-    "@typescript-eslint/parser": ^5.30.6
-    babel-eslint: ^10.1.0
-    eslint: ^8.19.0
-    eslint-config-airbnb: ^19.0.4
-    eslint-config-next: 12.2.2
-    eslint-config-prettier: ^8.5.0
-    eslint-plugin-babel: ^5.3.1
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-jsx-a11y: ^6.6.0
-    eslint-plugin-prettier: ^4.2.1
-    eslint-plugin-react: ^7.30.1
-    eslint-plugin-react-hooks: ^4.6.0
-    eslint-plugin-simple-import-sort: ^7.0.0
-    next: 12.2.2
-    prettier: ^2.7.1
-    react: 18.2.0
-    react-dom: 18.2.0
-    typescript: 4.7.4
-  languageName: unknown
-  linkType: soft
-
 "next@npm:12.2.2":
   version: 12.2.2
   resolution: "next@npm:12.2.2"
@@ -3258,6 +3223,41 @@ __metadata:
   checksum: 53b1e247e68e05db7b3808b99b892bd36fb096e6fba213a06da7fab22045e97597db425c724f2bbd6c99a3c295e1e73f3e4de78592289f38431049e1277ca0ae
   languageName: node
   linkType: hard
+
+"sw-battle-v2@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "sw-battle-v2@workspace:."
+  dependencies:
+    "@babel/core": ^7.18.6
+    "@babel/plugin-proposal-decorators": ^7.18.6
+    "@emotion/babel-plugin": ^11.9.2
+    "@emotion/react": ^11.9.3
+    "@emotion/styled": ^11.9.3
+    "@types/babel__core": ^7
+    "@types/node": 18.0.3
+    "@types/react": 18.0.15
+    "@types/react-dom": 18.0.6
+    "@typescript-eslint/eslint-plugin": ^5.30.6
+    "@typescript-eslint/parser": ^5.30.6
+    babel-eslint: ^10.1.0
+    eslint: ^8.19.0
+    eslint-config-airbnb: ^19.0.4
+    eslint-config-next: 12.2.2
+    eslint-config-prettier: ^8.5.0
+    eslint-plugin-babel: ^5.3.1
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-jsx-a11y: ^6.6.0
+    eslint-plugin-prettier: ^4.2.1
+    eslint-plugin-react: ^7.30.1
+    eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-simple-import-sort: ^7.0.0
+    next: 12.2.2
+    prettier: ^2.7.1
+    react: 18.2.0
+    react-dom: 18.2.0
+    typescript: 4.7.4
+  languageName: unknown
+  linkType: soft
 
 "text-table@npm:^0.2.0":
   version: 0.2.0
