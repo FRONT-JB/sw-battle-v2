@@ -1,3 +1,6 @@
-.pnp.*
+# prettier ignore
+.next/*
+.husky/*
 .yarn/*
-.vscode/*
+.pnp*
+.yarnrc.yml
