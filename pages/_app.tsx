@@ -1,11 +1,11 @@
 import { Hydrate, QueryClient, QueryClientProvider } from 'react-query';
+import { ReactQueryDevtools } from 'react-query/devtools';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { ThemeProvider } from '@emotion/react';
 
 import { globalStyles } from '@/styles/globalStyles';
 import { theme } from '@/styles/theme';
-
 function MyApp({ Component, pageProps }: AppProps) {
   const queryClient = new QueryClient({
     defaultOptions: {
@@ -27,6 +27,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             {globalStyles}
             <Component {...pageProps} />
           </ThemeProvider>
+          <ReactQueryDevtools />
         </Hydrate>
       </QueryClientProvider>
     </>
