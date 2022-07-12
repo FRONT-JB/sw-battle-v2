@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "cross-env ANALYZE=true NODE_ENV=production next build",
     "start": "next start",
     "lint": "next lint",
     "postinstall": "husky install"
@@ -13,6 +13,8 @@
     "@babel/core": "^7.18.6",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
+    "@next/bundle-analyzer": "^12.2.2",
+    "cross-env": "^7.0.3",
     "next": "12.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
