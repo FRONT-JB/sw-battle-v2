@@ -13,7 +13,7 @@ export const globalStyles = (
       }
       html {
         font-family: 'Noto Sans KR', sans-serif;
-        background: #eaedf2;
+        background: #141517;
       }
       body {
         overflow: hidden;

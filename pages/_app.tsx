@@ -1,11 +1,15 @@
 import { Hydrate, QueryClient, QueryClientProvider } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools';
 import type { AppProps } from 'next/app';
+import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import { ThemeProvider } from '@emotion/react';
 
 import { globalStyles } from '@/styles/globalStyles';
 import { theme } from '@/styles/theme';
+
+const DynamicLayout = dynamic(() => import('components/Layout/Layout'));
+
 function MyApp({ Component, pageProps }: AppProps) {
   const queryClient = new QueryClient({
     defaultOptions: {
@@ -25,7 +29,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Hydrate state={pageProps.dehydratedState}>
           <ThemeProvider theme={theme}>
             {globalStyles}
-            <Component {...pageProps} />
+            <DynamicLayout>
+              <Component {...pageProps} />
+            </DynamicLayout>
           </ThemeProvider>
           <ReactQueryDevtools />
         </Hydrate>
