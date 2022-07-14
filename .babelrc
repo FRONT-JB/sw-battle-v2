@@ -1,8 +1,15 @@
 {
   "presets": ["next/babel"],
   "plugins": [
-    "@emotion",
-    ["@babel/plugin-proposal-decorators",
+    [
+      "@emotion",
+      {
+        "autoLabel": "dev-only",
+        "labelFormat": "[dirname]-[filename]-[local]"
+      }
+    ],
+    [
+      "@babel/plugin-proposal-decorators",
       {
         "legacy" : true 
       }
