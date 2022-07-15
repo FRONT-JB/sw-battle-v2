@@ -19,4 +19,7 @@ export interface ThemeTypes {
   gradient: {
     purple: string;
   };
+  shadow: {
+    base: string;
+  };
 }
