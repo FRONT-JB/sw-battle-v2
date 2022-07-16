@@ -4,7 +4,7 @@
 
 <br />
 
-- [ ] 개발스택 변경 ( NextJS, Emotion, Recoil, React-Query )
+- [ ] 기술스택 변경 ( NextJS, Emotion, Recoil, React-Query )
 - [ ] 신규 레이아웃 구현
 - [ ] 채팅서비스 개발
 - [ ] 실시간통신 구현
