@@ -1,15 +1,13 @@
 import { Theme } from '@emotion/react';
 
-import { ThemeTypes } from './types';
-
-export const media: ThemeTypes['media'] = {
+export const media: Theme['media'] = {
   lg: 1440,
   md: 1200,
   sm: 768,
   xs: 475,
 };
 
-export const colors: ThemeTypes['colors'] = {
+export const colors: Theme['colors'] = {
   black: '#141517',
   white: '#fff',
   white_darken_1: '#dfe0e1',
@@ -21,12 +19,17 @@ export const colors: ThemeTypes['colors'] = {
   purple: '#6a3093',
 };
 
-export const gradient: ThemeTypes['gradient'] = {
+export const gradient: Theme['gradient'] = {
   purple: 'linear-gradient(to right, #6a3093, #a044ff)',
+};
+
+export const shadow: Theme['shadow'] = {
+  base: '-5px 5px 16px -4px rgba(0,0,0,0.25)',
 };
 
 export const theme: Theme = {
   colors,
   gradient,
   media,
+  shadow,
 };
