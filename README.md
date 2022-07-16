@@ -2,6 +2,14 @@
 
 [RENEWAL](https://github.com/FRONT-JB/sw-battle)
 
+<br />
+
+- [ ] 개발스택 변경 ( NextJS, Emotion, Recoil, React-Query )
+- [ ] 신규 레이아웃 구현
+- [ ] 채팅서비스 개발
+- [ ] 실시간통신 구현
+
+<br />
 
 ![스크린샷 2022-07-14 오후 9 59 14](https://user-images.githubusercontent.com/85790271/178988789-015bcf87-ff9f-41f7-8aba-a6d8d37fe864.png)
 
