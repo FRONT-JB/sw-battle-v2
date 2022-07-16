@@ -1,4 +1,7 @@
-# SW-BATTLE-V2
+# SW-BATTLE-V2 
+
+[RENEWAL](https://github.com/FRONT-JB/sw-battle)
+
 
 ![스크린샷 2022-07-14 오후 9 59 14](https://user-images.githubusercontent.com/85790271/178988789-015bcf87-ff9f-41f7-8aba-a6d8d37fe864.png)
 
