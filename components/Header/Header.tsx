@@ -1,10 +1,12 @@
 import styled from '@emotion/styled';
 
+import Utils from './Utils';
+
 const Header = () => {
   return (
     <HeaderWrapper>
       <Logo>Logo</Logo>
-      <Utils>Util List</Utils>
+      <Utils />
     </HeaderWrapper>
   );
 };
@@ -26,5 +28,3 @@ const HeaderWrapper = styled.header`
 `;
 
 const Logo = styled.h1``;
-
-const Utils = styled.div``;
